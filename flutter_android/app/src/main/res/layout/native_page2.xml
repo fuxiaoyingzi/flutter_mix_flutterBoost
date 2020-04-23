@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:text="hello shadow，我是第二个界面"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/open_native"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8.0dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/holo_orange_dark"
+        android:padding="8.0dp"
+        android:text="官方加载Flutter界面"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
